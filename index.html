@@ -69,6 +69,32 @@
               <button type="button" data-modal-close>
                 <svg class="icon-close-svg"><use href="./images/icons.svg#icon-close11"></use></svg>
               </button>
+              <p class="modal-p">Оставьте свои данные, мы вам перезвоним</p>
+              <form name="form-signup" autocomplete="on" novalidate class="signup">
+                <label for="name" class="label">Имя</label>
+                <input type="text" name="name" id="name" class="input" autofocus />
+                <label for="tel" class="label">Телефон</label>
+                <input type="tel" name="tel" id="tel" class="input" />
+                <label for="email" class="label">Почта</label>
+                <input type="email" name="email" id="email" class="input" />
+                <label for="comment" class="label">Комментарий</label>
+                <textarea
+                  name="comment"
+                  rows="5"
+                  placeholder="Введите текст"
+                  id="comment"
+                  class="comment"
+                ></textarea>
+                <input
+                  type="checkbox"
+                  name="checkbox"
+                  id="checkbox"
+                  class="checkbox"
+                  value="checked"
+                />
+                <p class="checkbox-p">Соглашаюсь с рассылкой и принимаю Условия договора</p>
+                <button type="submit">Submit</button>
+              </form>
             </div>
           </div>
         </div>
