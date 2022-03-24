@@ -309,11 +309,7 @@ header {
   left: 14px;
   top: 50%;
   transform: translateY(-50%);
-  color: blueviolet;
-  fill: currentColor;
-  stroke: red;
-  stroke-width: 6px;
-  background-color: green;
+  fill: var(--accent-color);
 }
 
 .comment {
