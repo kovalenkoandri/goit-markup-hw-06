@@ -335,10 +335,10 @@ header {
   outline: 1px solid var(--accent-color);
 }
 
-.input:focus + .pos-svg,
+/* .input:focus + .pos-svg,
 .input:not(:placeholder-shown) + .pos-svg {
   transform: translateY(-20px);
-}
+} */
 
 .checkbox {
   width: 16px;
