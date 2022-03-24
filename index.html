@@ -85,14 +85,31 @@
                   />
                 </svg> -->
                 <label for="name" class="label">Имя</label>
-                <div class="input-name-div">
-                  <input type="text" name="name" id="name" class="input" autofocus />
-                  <img src="./name12-12.svg" class="name-svg" />
+                <div class="input-pos-div">
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    class="input"
+                    placeholder=" "
+                    autofocus
+                  />
+                  <!-- <img src="./name12-12.svg" class="pos-svg" /> -->
+                  <svg class="pos-svg"><use href="./name12-12.svg"></use></svg>
                 </div>
                 <label for="tel" class="label">Телефон</label>
-                <input type="tel" name="tel" id="tel" class="input" />
+                <div class="input-pos-div">
+                  <input type="tel" name="tel" id="tel" class="input" placeholder=" " />
+                  <!-- <img src="./tel13-13.svg" class="pos-svg" /> -->
+                  <svg class="pos-svg"><use href="./tel13-13.svg"></use></svg>
+                  <span class="pos-svg"></span>
+                </div>
                 <label for="email" class="label">Почта</label>
-                <input type="email" name="email" id="email" class="input" />
+                <div class="input-pos-div">
+                  <input type="email" name="email" id="email" class="input" placeholder=" " />
+                  <!-- <img src="./mail15-12.svg" class="pos-svg" /> -->
+                  <svg class="pos-svg"><use href="./mail15-12.svg"></use></svg>
+                </div>
                 <label for="comment" class="label">Комментарий</label>
                 <textarea
                   name="comment"

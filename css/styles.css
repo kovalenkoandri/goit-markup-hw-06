@@ -258,7 +258,7 @@ header {
 .data-modal-close:hover {
   color: var(--accent-color);
   fill: currentColor;
-  stroke: currentColor;
+  /* stroke: currentColor; */
 }
 
 .icon-close-svg {
@@ -290,7 +290,7 @@ header {
   padding-bottom: 4px;
 }
 
-.input-name-div {
+.input-pos-div {
   position: relative;
 }
 
@@ -300,17 +300,20 @@ header {
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  padding-left: 42px;
   margin-bottom: 10px;
 }
 
-.input:focus {
-  border: 1px solid var(--accent-color);
-}
-
-.name-svg {
+.pos-svg {
   position: absolute;
-  top: 14px;
-  left: 15px;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: blueviolet;
+  fill: currentColor;
+  stroke: red;
+  stroke-width: 6px;
+  background-color: green;
 }
 
 .comment {
@@ -329,6 +332,16 @@ header {
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
+}
+
+.input:focus,
+.comment:focus {
+  outline: 1px solid var(--accent-color);
+}
+
+.input:focus + .pos-svg,
+.input:not(:placeholder-shown) + .pos-svg {
+  transform: translateY(-20px);
 }
 
 .checkbox {
