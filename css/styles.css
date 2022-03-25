@@ -375,7 +375,7 @@ header {
   fill: #fff;
 }
 
-.checkbox:checked .checkbox-custom-galka {
+.checkbox:checked + .checkbox-custom .checkbox-custom-galka {
   width: 16px;
   height: 15px;
   position: absolute;
