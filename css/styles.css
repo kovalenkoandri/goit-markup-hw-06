@@ -368,7 +368,14 @@ header {
   fill: black;
 }
 
-.checkbox-custom:focus .checkbox-custom {
+.checkbox-custom .checkbox-custom-galka {
+  width: 16px;
+  height: 15px;
+  position: absolute;
+  fill: #fff;
+}
+
+.checkbox-custom:focus .checkbox-custom-galka {
   width: 16px;
   height: 15px;
   position: absolute;
