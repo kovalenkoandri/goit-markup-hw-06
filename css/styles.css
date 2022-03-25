@@ -386,10 +386,10 @@ header {
 }
 
 .checkbox + .checkbox-custom > .checkbox-custom-galka {
-  width: 11px;
-  height: 8px;
+  width: 16px;
+  height: 15px;
   position: absolute;
-  fill: #fff;
+  fill: var(--accent-color);
 }
 
 .checkbox:checked + .checkbox-custom {
