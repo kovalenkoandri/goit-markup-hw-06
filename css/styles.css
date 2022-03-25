@@ -361,6 +361,13 @@ header {
   /* appearance: none; */
 }
 
+.checkbox::before {
+  content: '';
+  width: 30px;
+  height: 30px;
+  background-color: rgba(24, 138, 232, 0.459);
+}
+
 .checkbox-custom {
   width: 16px;
   height: 15px;
