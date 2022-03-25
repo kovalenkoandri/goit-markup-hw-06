@@ -364,11 +364,15 @@ header {
 .checkbox-custom {
   width: 16px;
   height: 15px;
+  position: relative;
+  fill: black;
 }
 
-.checkbox-custom:checked {
-  width: 26px;
-  height: 25px;
+.checkbox-custom:focus .checkbox-custom {
+  width: 16px;
+  height: 15px;
+  position: absolute;
+  fill: blue;
 }
 
 .checkbox-span {
