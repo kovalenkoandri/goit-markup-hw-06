@@ -363,30 +363,30 @@ header {
 
 .checkbox::before {
   content: '';
-  width: 30px;
-  height: 30px;
-  background-color: rgba(24, 138, 232, 0.459);
+  width: 239px;
+  height: 60px;
+  background-color: rgb(25 140 41 / 0%);
+  position: absolute;
+  transform: translate(-30px, -20px);
+  z-index: 1;
 }
 
 .checkbox-custom {
   width: 16px;
   height: 15px;
   position: relative;
-  fill: black;
+  fill: var(--primary-text-color);
 }
 
-.checkbox + .checkbox-custom .checkbox-custom-galka {
-  width: 16px;
-  height: 15px;
+.checkbox + .checkbox-custom > .checkbox-custom-galka {
+  width: 11px;
+  height: 8px;
   position: absolute;
   fill: #fff;
 }
 
-.checkbox:checked + .checkbox-custom .checkbox-custom-galka {
-  width: 16px;
-  height: 15px;
-  position: absolute;
-  fill: blue;
+.checkbox:checked + .checkbox-custom > .checkbox-custom-galka {
+  fill: var(--accent-color);
 }
 
 .checkbox-span {
