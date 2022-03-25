@@ -355,10 +355,10 @@ header {
   outline: 1px solid var(--accent-color);
 }
 
-.checkbox.visually-hidden {
+.checkbox {
   width: 16px;
   height: 15px;
-  /* appearance: none; */
+  appearance: none;
 }
 
 .checkbox::before {
@@ -385,8 +385,8 @@ header {
   fill: #fff;
 }
 
-.checkbox:checked + .checkbox-custom > .checkbox-custom-galka {
-  fill: var(--accent-color);
+.checkbox:checked + .checkbox-custom {
+  background-color: var(--accent-color);
 }
 
 .checkbox-span {
