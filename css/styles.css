@@ -366,6 +366,11 @@ header {
   height: 15px;
 }
 
+.checkbox-custom:checked {
+  width: 26px;
+  height: 25px;
+}
+
 .checkbox-span {
   font-size: 14px;
   line-height: 1.71;
