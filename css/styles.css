@@ -899,7 +899,7 @@ img {
   line-height: 1.14;
   text-transform: uppercase;
   color: #fff;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .footer-input {
@@ -927,7 +927,6 @@ img {
   border-radius: 4px;
   background-color: var(--accent-color);
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
@@ -937,6 +936,7 @@ img {
   line-height: 1.88;
   letter-spacing: 0.06em;
   color: #fff;
+  margin-left: 29px;
 }
 
 .footer-submit-svg {
@@ -944,4 +944,5 @@ img {
   width: 24px;
   height: 24px;
   fill: #fff;
+  margin-left: 10px;
 }
