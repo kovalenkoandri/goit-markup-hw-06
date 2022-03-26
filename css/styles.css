@@ -892,6 +892,10 @@ img {
   fill: #fff;
 }
 
+.footer-submit-div {
+  width: 570px;
+}
+
 .footer-submit-p {
   font-weight: 700;
   font-size: 14px;
