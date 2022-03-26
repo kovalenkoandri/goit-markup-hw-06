@@ -363,16 +363,22 @@ header {
 }
 
 .checkbox-div {
-  padding-right: 51px;
+  position: relative;
+  padding-left: 14px;
 }
 
 .checkbox {
   width: 16px;
   height: 15px;
-  /* appearance: none; */
+  width: 140px;
+  height: 60px;
+  appearance: none;
+  position: absolute;
+  transform: translate(-35px, -20px);
+  z-index: 1;
 }
 
-.checkbox::before {
+/* .checkbox::before {
   content: '';
   width: 239px;
   height: 60px;
@@ -380,7 +386,7 @@ header {
   position: absolute;
   transform: translate(-30px, -20px);
   z-index: 1;
-}
+} */
 
 .checkbox-custom {
   width: 16px;
@@ -388,6 +394,10 @@ header {
   position: relative;
   border: 2px solid var(--primary-text-color);
   border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  stroke-width: 3px;
+  stroke: #fff;
 }
 
 .checkbox + .checkbox-custom > .checkbox-custom-galka {
@@ -395,7 +405,6 @@ header {
   height: 15px;
   position: absolute;
   fill: #fff;
-  left: 0;
   display: inline-block;
 }
 
