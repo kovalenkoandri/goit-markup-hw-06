@@ -842,7 +842,6 @@ img {
 
 .footer-link {
   color: rgba(255, 255, 255, 0.6);
-  margin-top: 9px;
 }
 
 .footer-wrapper-join {
@@ -900,6 +899,11 @@ img {
   text-transform: uppercase;
   color: #fff;
   margin-bottom: 20px;
+}
+
+.footer-input-button-div {
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer-input {
