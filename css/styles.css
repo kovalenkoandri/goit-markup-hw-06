@@ -880,12 +880,6 @@ img {
   justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-/* background-position: center;
-  background-size: initial;
-  background-repeat: no-repeat; */
-/* color: transparent; */
-/* width: 44px; */
-/* height: 44px; */
 
 .footer-a-join:hover,
 .footer-a-join:focus {
@@ -896,4 +890,22 @@ img {
   width: 20px;
   height: 20px;
   fill: #fff;
+}
+
+.footer-submit-p {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+.input-footer::placeholder {
+  padding: 15px 295px 15px 16px;
+  font-size: 16px;
+  line-height: 1.25;
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.6);
 }
