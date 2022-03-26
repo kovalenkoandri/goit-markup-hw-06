@@ -372,7 +372,7 @@ header {
   height: 15px;
   width: 140px;
   height: 60px;
-  appearance: none;
+  /* appearance: none; */
   position: absolute;
   transform: translate(-35px, -20px);
   z-index: 1;
@@ -398,6 +398,7 @@ header {
   justify-content: center;
   stroke-width: 3px;
   stroke: #fff;
+  z-index: 1;
 }
 
 .checkbox + .checkbox-custom > .checkbox-custom-galka {
