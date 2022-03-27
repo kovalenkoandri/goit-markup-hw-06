@@ -384,8 +384,8 @@ header {
 .checkbox:checked + .checkbox-custom {
   background-color: var(--accent-color);
   border-color: transparent;
-  /* background-image: url(../images/index/checka.svg); */
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='16' height='15' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='16' height='15' rx='2' fill='%232196F3'/%3E%3Cmask id='a' maskUnits='userSpaceOnUse' x='2' y='3' width='13' height='10' fill='%23000'%3E%3Cpath fill='%23fff' d='M2 3h13v10H2z'/%3E%3Cpath d='M6.496 10.312 3.888 7.824 3 8.665 6.496 12 14 4.841 13.118 4l-6.622 6.312Z'/%3E%3C/mask%3E%3Cpath d='M6.496 10.312 3.888 7.824 3 8.665 6.496 12 14 4.841 13.118 4l-6.622 6.312Z' fill='%23fff'/%3E%3Cpath d='M6.496 10.312 3.888 7.824 3 8.665 6.496 12 14 4.841 13.118 4l-6.622 6.312Z' stroke='%23fff' stroke-width='.4' mask='url(%23a)'/%3E%3C/svg%3E");
+  background-image: url(../images/index/checka.svg);
+  /* background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='16' height='15' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='16' height='15' rx='2' fill='%232196F3'/%3E%3Cmask id='a' maskUnits='userSpaceOnUse' x='2' y='3' width='13' height='10' fill='%23000'%3E%3Cpath fill='%23fff' d='M2 3h13v10H2z'/%3E%3Cpath d='M6.496 10.312 3.888 7.824 3 8.665 6.496 12 14 4.841 13.118 4l-6.622 6.312Z'/%3E%3C/mask%3E%3Cpath d='M6.496 10.312 3.888 7.824 3 8.665 6.496 12 14 4.841 13.118 4l-6.622 6.312Z' fill='%23fff'/%3E%3Cpath d='M6.496 10.312 3.888 7.824 3 8.665 6.496 12 14 4.841 13.118 4l-6.622 6.312Z' stroke='%23fff' stroke-width='.4' mask='url(%23a)'/%3E%3C/svg%3E"); */
 }
 
 .checkbox-custom-svg {
