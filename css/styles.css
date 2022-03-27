@@ -370,8 +370,6 @@ header {
   border: 2px solid var(--primary-text-color);
   border-radius: 4px;
   left: 0;
-  stroke: #fff;
-  stroke-width: 3px;
   fill: #fff;
 }
 
@@ -383,6 +381,8 @@ header {
   background-origin: border-box;*/
   border-color: transparent;
   display: flex;
+  stroke: #fff;
+  stroke-width: 3px;
 }
 
 .checkbox-span {
