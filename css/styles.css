@@ -253,11 +253,13 @@ header {
   right: 8px;
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #000;
+  fill: currentColor;
+  transition: color 2250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .data-modal-close:hover {
   color: var(--accent-color);
-  fill: currentColor;
   /* stroke: currentColor; */
 }
 
