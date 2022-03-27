@@ -364,13 +364,16 @@ header {
 }
 
 .checkbox-custom {
+  position: absolute;
+  display: flex;
   width: 16px;
   height: 15px;
-  position: absolute;
   border: 2px solid var(--primary-text-color);
   border-radius: 4px;
   left: 0;
   fill: #fff;
+  stroke: #fff;
+  stroke-width: 3px;
 }
 
 .checkbox:checked + .checkbox-custom {
@@ -380,9 +383,11 @@ header {
   background-size: contain;
   background-origin: border-box;*/
   border-color: transparent;
-  display: flex;
-  stroke: #fff;
-  stroke-width: 3px;
+}
+
+.checkbox-custom-svg {
+  width: 16px;
+  height: 15px;
 }
 
 .checkbox-span {
