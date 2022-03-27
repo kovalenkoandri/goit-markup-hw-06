@@ -365,7 +365,9 @@ header {
 
 .checkbox-custom {
   position: absolute;
-  display: flex;
+  /* display: flex; */
+  display: grid;
+  justify-content: center;
   width: 16px;
   height: 15px;
   border: 2px solid var(--primary-text-color);
