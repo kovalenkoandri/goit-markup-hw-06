@@ -364,7 +364,8 @@ header {
   margin-left: 14px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
+  width: 423px;
 }
 
 .checkbox-custom {
@@ -402,7 +403,7 @@ header {
 }
 
 .checkbox-span {
-  margin-left: 7px;
+  /* margin-left: 7px; */
   font-size: 14px;
   line-height: 1.71;
   color: var(--secondary-text-color);
