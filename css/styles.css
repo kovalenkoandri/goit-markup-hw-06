@@ -362,6 +362,9 @@ header {
 .checkbox-div {
   position: relative;
   margin-left: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .checkbox-custom {
