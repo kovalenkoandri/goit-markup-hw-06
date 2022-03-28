@@ -383,6 +383,7 @@ header {
 }
 
 .checkbox:checked + .checkbox-custom {
+  fill: var(--accent-color);
   background-color: var(--accent-color);
   border-color: var(--accent-color);
   /* background-image: url(../images/index/checka.svg); */
